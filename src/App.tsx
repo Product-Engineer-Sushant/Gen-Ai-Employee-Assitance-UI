@@ -1,10 +1,8 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import {
-  FaUserTie,
   FaRobot,
   FaPaperPlane,
   FaPlus,
-  FaEllipsisV,
 } from "react-icons/fa";
 import MarkdownRenderer from "./components/shared/Markdown";
 import axios from 'axios';
