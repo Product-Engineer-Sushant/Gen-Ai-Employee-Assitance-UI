@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* On phones, the employee table can be scrolled horizontally. On desktop,
+   preserve horizontal scroll support without displaying a scrollbar. */
+@media (min-width: 768px) {
+  .employee-table-scroll {
+    scrollbar-width: none;
+  }
+
+  .employee-table-scroll::-webkit-scrollbar {
+    display: none;
+  }
+}
